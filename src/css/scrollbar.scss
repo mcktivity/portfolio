@@ -1,0 +1,20 @@
+@import "variables.scss";
+/* The emerging W3C standard
+   that is currently Firefox-only */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $black-pearl $bermuda ;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: $bermuda;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: $black-pearl;
+  border-radius: 6px;
+  border: 3px solid $bermuda;
+}

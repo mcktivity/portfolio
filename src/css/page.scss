@@ -1,0 +1,11 @@
+@import "variables.scss";
+
+.page {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 30px 50px;
+  background-color: $white;
+  max-width: 700px;
+  border-radius: 5px;
+  z-index: 1;
+}

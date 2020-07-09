@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: $black-pearl;
+  background-color: $bermuda;
+}
+
+.animatedBg {
+  width: 100%;
+  background: linear-gradient($black-pearl, $bermuda);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

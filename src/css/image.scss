@@ -1,0 +1,17 @@
+img.profile-pic {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: -110px auto 0;
+  border: 8px solid #ffffff;
+}
+
+img.travel {
+  margin: 1em;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
