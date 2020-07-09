@@ -21,18 +21,18 @@ export default () => {
           margin: "70px auto 100px",
         }}
       >
-        {!location.pathname.includes("/om") && (
+        {!location.pathname.includes("/portfolio/om") && (
           <Button
             color="white"
             title="Om meg"
-            onClick={() => history.push("/om/nokkelkompetanse")}
+            onClick={() => history.push("/portfolio/om/nokkelkompetanse")}
           />
         )}
-        {location.pathname.includes("/om") && (
+        {location.pathname.includes("/portfolio/om") && (
           <Button
             color="white"
             title="Hjem"
-            onClick={() => history.push("/")}
+            onClick={() => history.push("/portfolio")}
           />
         )}
         <Button

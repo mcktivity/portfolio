@@ -12,7 +12,7 @@ export default ({ items }: NavbarProps) => {
   const [selectedItem, setSelected] = useState<string>(items[0]);
   function selectItem(i: string) {
     setSelected(i);
-    history.push(`/om/${i}`);
+    history.push(`/portfolio/om/${i}`);
   }
 
   return (

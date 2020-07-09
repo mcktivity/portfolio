@@ -32,11 +32,11 @@ export default () => {
     >
       <Navbar items={navbarItems} />
       <Switch>
-        <Route path="/om/erfaring" component={Work} />
-        <Route path="/om/egenskaper" component={Skills} />
-        <Route path="/om/nokkelkompetanse" component={KeyQualifications} />
-        <Route path="/om/annet" component={Others} />
-        <Route path="/om/utdanning" component={Education} />
+        <Route path="/portfolio/om/erfaring" component={Work} />
+        <Route path="/portfolio/om/egenskaper" component={Skills} />
+        <Route path="/portfolio/om/nokkelkompetanse" component={KeyQualifications} />
+        <Route path="/portfolio/om/annet" component={Others} />
+        <Route path="/portfolio/om/utdanning" component={Education} />
       </Switch>
     </Grid>
   );

@@ -23,9 +23,10 @@ export default () => {
             <li>Sprint</li>
             <li>Continuous Delivery</li>
             <li>Jira</li>
-            <li>Slacks</li>
+            <li>Slack</li>
             <li>Azure DevOps</li>
             <li>Figma</li>
+            <li>logRocket</li>
             <li>Universell utforming</li>
             <li>Responsivt design</li>
           </ul>

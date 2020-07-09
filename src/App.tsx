@@ -20,10 +20,9 @@ function App() {
       </ul>
       <Router history={history}>
         <Banner />
-
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/om" component={About} />
+          <Route path="/portfolio" exact component={Home} />
+          <Route path="/portfolio/om" component={About} />
         </Switch>
       </Router>
     </div>
