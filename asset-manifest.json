@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0ef49c03.chunk.css",
+    "main.js": "/portfolio/static/js/main.858a97ed.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.858a97ed.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.23e48518.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.23e48518.js.map",
+    "static/js/2.71c718bf.chunk.js": "/portfolio/static/js/2.71c718bf.chunk.js",
+    "static/js/2.71c718bf.chunk.js.map": "/portfolio/static/js/2.71c718bf.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.f51dff402db087011134375b2718704b.js": "/portfolio/precache-manifest.f51dff402db087011134375b2718704b.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.0ef49c03.chunk.css.map": "/portfolio/static/css/main.0ef49c03.chunk.css.map",
+    "static/js/2.71c718bf.chunk.js.LICENSE.txt": "/portfolio/static/js/2.71c718bf.chunk.js.LICENSE.txt",
+    "static/media/hugs-1.jpg": "/portfolio/static/media/hugs-1.9833db48.jpg",
+    "static/media/hugs-2.jpg": "/portfolio/static/media/hugs-2.3623ead9.jpg",
+    "static/media/mat-1.jpg": "/portfolio/static/media/mat-1.7ec0177f.jpg",
+    "static/media/mat-2.jpg": "/portfolio/static/media/mat-2.c1acd92d.jpg",
+    "static/media/profile-picture.jpg": "/portfolio/static/media/profile-picture.d5c1d7c0.jpg",
+    "static/media/spill-1.jpg": "/portfolio/static/media/spill-1.3755b47c.jpg",
+    "static/media/spill-2.jpg": "/portfolio/static/media/spill-2.f6965a41.jpg",
+    "static/media/spill-3.jpg": "/portfolio/static/media/spill-3.fc651cb8.jpg",
+    "static/media/travel-1.jpg": "/portfolio/static/media/travel-1.6a76aadc.jpg",
+    "static/media/travel-2.jpg": "/portfolio/static/media/travel-2.0049e8e3.jpg",
+    "static/media/travel-3.jpg": "/portfolio/static/media/travel-3.53ddc30f.jpg",
+    "static/media/travel-4.jpg": "/portfolio/static/media/travel-4.68344796.jpg",
+    "static/media/travel-5.jpg": "/portfolio/static/media/travel-5.0fffd01c.jpg",
+    "static/media/travel-6.jpg": "/portfolio/static/media/travel-6.8b21d2bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23e48518.js",
+    "static/js/2.71c718bf.chunk.js",
+    "static/css/main.0ef49c03.chunk.css",
+    "static/js/main.858a97ed.chunk.js"
+  ]
+}
