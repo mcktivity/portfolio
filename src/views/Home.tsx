@@ -24,7 +24,7 @@ export default () => {
           Konverterer kaffe til koder siden 2018. Jeg er en {currentYear - 1993}
           -år gammel Frontend-utvikler som bor i Lørenskog. Jeg har diverse
           ferdigheter, fra HTML + CSS, JavaScript til TypeScript, strategisk
-          innhold og responsiv design, og helt til rammeverke som React and Vue.
+          innhold og responsiv design, og helt til rammeverke som React og Vue.
         </p>
       </section>
     </div>
