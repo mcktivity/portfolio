@@ -15,137 +15,75 @@ import spill3 from "./../../images/spill-3.jpg";
 
 export default () => {
   return (
-    <>
-      <div
-        style={{
-          backgroundColor: "#ffffff",
-          margin: 4,
-          borderRadius: 4,
-          width: "100%",
-        }}
-      >
-        <section style={{ padding: 30 }}>
-          <h2>REISE + MAT</h2>
-          <br />
-          <p>
-            Min interesse for reising har vært med meg så lenge jeg kan huske. Å
-            reise til andre steder gir nye kunnskap, opplevelse, gode minner og
-            appetittvekkende <b>mat</b>. Jeg har vært i mange steder i landet og
-            innenfor EU og Asia sammen med kona. Et utvalg av mine reiser med
-            kona:
-          </p>
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-            }}
-          >
-            <picture>
-              <img className="travel" src={travel1} alt="" />
-            </picture>
-            <picture>
-              <img className="travel" src={travel2} alt="" />
-            </picture>
-            <picture>
-              <img className="travel" src={travel3} alt="" />
-            </picture>
-            <picture>
-              <img className="travel" src={travel4} alt="" />
-            </picture>
-            <picture>
-              <img className="travel" src={travel5} alt="" />
-            </picture>
-            <picture>
-              <img className="travel" src={travel6} alt="" />
-            </picture>
-            <picture>
-              <img
-                className="travel"
-                src={mat1}
-                alt="koreansk vafler i pinner"
-              />
-            </picture>
-            <picture>
-              <img className="travel" src={mat2} alt="tailormade donuts" />
-            </picture>
-          </div>
-        </section>
-      </div>
-      <div
-        style={{
-          backgroundColor: "#ffffff",
-          margin: 4,
-          borderRadius: 4,
-          width: "100%",
-        }}
-      >
-        <section style={{ padding: 30 }}>
-          <h2>SPILL</h2>
-          <br />
-          <p>
-            På fritiden spiller jeg dataspill eller ser på netflix filmer og
-            serier for å slappe av.
-          </p>
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-            }}
-          >
-            <picture>
-              <img className="travel" src={spill1} alt="dota2 logo" />
-            </picture>
-            <picture>
-              <img
-                className="travel"
-                src={spill2}
-                alt="animal crossing: new horizons logo"
-              />
-            </picture>
-            <picture>
-              <img
-                className="travel"
-                src={spill3}
-                alt="Zelda: breath of the wild logo"
-              />
-            </picture>
-          </div>
-        </section>
-      </div>
-      <div
-        style={{
-          backgroundColor: "#ffffff",
-          margin: 4,
-          borderRadius: 4,
-          width: "100%",
-        }}
-      >
-        <section style={{ padding: 30 }}>
-          <h2>BONUS INFO</h2>
-          <br />
-          <p>
-            Møt katten min, Hugs. Hugs er ikke en typisk katt. Han er{" "}
-            <i>sweet but psycho</i>. Han er kosete men aldri glemmer å jakte
-            etter **** ute og få den byttet til godteri.
-          </p>
-          <div
-            style={{
-              display: "flex",
-              flexWrap: "wrap",
-              justifyContent: "center",
-            }}
-          >
-            <picture>
-              <img className="travel" src={cat1} alt="katt ute i gress" />
-            </picture>
-            <picture>
-              <img className="travel" src={cat2} alt="katt i brille" />
-            </picture>
-          </div>
-        </section>
-      </div>
-    </>
+    <main>
+      <section aria-label="travel-and-food">
+        <h2>REISE + MAT</h2>
+        <p>
+          Min interesse for reising har vært med meg så lenge jeg kan huske. Å
+          reise til andre steder gir nye kunnskap, opplevelse, gode minner og
+          appetittvekkende <b>mat</b>. Jeg har vært i mange steder i landet og
+          innenfor EU og Asia sammen med kona. Et utvalg av mine reiser med
+          kona:
+        </p>
+        <figure role="group" aria-label="travel-and-food-images">
+          <img className="travel" src={travel1} alt="Windmill in Copenhagen" />
+          <img
+            className="travel"
+            src={travel2}
+            alt="Northern lights in iceland"
+          />
+          <img
+            className="travel"
+            src={travel3}
+            alt="Changdeukgung palace in South Korea"
+          />
+          <img
+            className="travel"
+            src={travel4}
+            alt="La Sagrada de Familia in Spain"
+          />
+          <img
+            className="travel"
+            src={travel5}
+            alt="WindMills in Netherlands"
+          />
+          <img className="travel" src={travel6} alt="Gondola ride in Venice" />
+          <img className="travel" src={mat1} alt="koreansk vafler i pinner" />
+          <img className="travel" src={mat2} alt="tailormade donuts" />
+        </figure>
+      </section>
+      <section aria-label="games">
+        <h2>SPILL</h2>
+        <p>
+          Når det gjelder spill så liker jeg mest de strategiske og{" "}
+          <i>designing</i>.
+        </p>
+        <figure role="group" aria-label="games-images">
+          <img className="travel" src={spill1} alt="dota2 logo" />
+          <img
+            className="travel"
+            src={spill2}
+            alt="animal crossing: new horizons logo"
+          />
+          <img
+            className="travel"
+            src={spill3}
+            alt="Zelda: breath of the wild logo"
+          />
+        </figure>
+      </section>
+      <section aria-label="games">
+        <h2>KATT, KATT, KATT</h2>
+        <p>
+          Møt katten min, Hugs. Hugs er ikke en typisk katt. Han er{" "}
+          <i>sweet but psycho</i>. Han er kosete men aldri glemmer å jakte etter
+          **** ute og få den byttet til godteri.
+        </p>
+        <figure role="group" aria-label="cat-images">
+          <img className="travel" src={cat1} alt="katt ute i gress" />
+          <img className="travel" src={cat2} alt="katt i brille" />
+        </figure>
+      </section>
+    </main>
   );
 };

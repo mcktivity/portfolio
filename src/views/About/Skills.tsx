@@ -1,16 +1,9 @@
 import React, { CSSProperties } from "react";
 
 export default () => {
-  const sectionStyle: CSSProperties = {
-    backgroundColor: "#ffffff",
-    margin: 4,
-    borderRadius: 4,
-    padding: "1.5em",
-  };
-
   return (
     <main aria-label="egenskaper">
-      <section style={sectionStyle} aria-label="it kunnskaper">
+      <section aria-label="it kunnskaper">
         <h2>IT KUNNSKAPER</h2>
         <ul className="colored-list">
           <li>HTML</li>
@@ -30,7 +23,7 @@ export default () => {
           <li>Responsivt design</li>
         </ul>
       </section>
-      <section style={sectionStyle} aria-label="personlige egenskaper">
+      <section aria-label="personlige egenskaper">
         <h2>PERSONLIGE EGENSKAPER</h2>
         <ul className="colored-list">
           <li>Læringsvillig, engasjert og faglig nysgjerrig</li>
@@ -46,7 +39,7 @@ export default () => {
           <li>Godt humør </li>
         </ul>
       </section>
-      <section style={sectionStyle} aria-label="språk">
+      <section aria-label="språk">
         <h2>SPRÅK </h2>
         <ul className="colored-list">
           <li>
