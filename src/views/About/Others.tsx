@@ -48,7 +48,7 @@ export default () => {
             alt="WindMills in Netherlands"
           />
           <img className="travel" src={travel6} alt="Gondola ride in Venice" />
-          <img className="travel" src={mat1} alt="koreansk vafler i pinner" />
+          <img className="travel" src={mat1} alt="korean waffles on sticks" />
           <img className="travel" src={mat2} alt="tailormade donuts" />
         </figure>
       </section>
@@ -72,7 +72,7 @@ export default () => {
           />
         </figure>
       </section>
-      <section aria-label="games">
+      <section aria-label="cat">
         <h2>KATT, KATT, KATT</h2>
         <p>
           Møt katten min, Hugs. Hugs er ikke en typisk katt. Han er{" "}

@@ -24,6 +24,12 @@ function App() {
           <Route path="/portfolio" exact component={Home} />
           <Route path="/portfolio/om" component={About} />
         </Switch>
+        <div
+          className="uppercase size-12"
+          style={{ margin: "0 auto", maxWidth: "fit-content" }}
+        >
+          <p>nettside under arbeid</p>
+        </div>
       </Router>
     </div>
   );

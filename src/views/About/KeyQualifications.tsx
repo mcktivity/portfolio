@@ -2,15 +2,8 @@ import React from "react";
 
 export default () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#ffffff",
-        margin: 4,
-        borderRadius: 4,
-        width: "100%",
-      }}
-    >
-      <section style={{ padding: 30 }}>
+    <main>
+      <section aria-label="key-qualifications">
         <h2>NØKKELKOMPETANSE</h2>
         <ul>
           <li>Motiveres av moderne teknologier og utfordrende prosjekter</li>
@@ -29,7 +22,6 @@ export default () => {
           <li>Initiativrik og ressurssterk </li>
           <li>Godt humør</li>
         </ul>
-        <br />
         <p>
           Jeg har erfaring fra innholds design og implementering av design fra
           konsept til etablering. Videre har jeg jobbet med web komponenter og
@@ -41,6 +33,6 @@ export default () => {
           mine.
         </p>
       </section>
-    </div>
+    </main>
   );
 };
