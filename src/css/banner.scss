@@ -5,6 +5,7 @@
   text-align: center;
   display: block;
   min-height: 100vh;
+  position: relative;
 }
 
 .banner p {
@@ -21,8 +22,8 @@
 }
 
 .banner span {
-  position: absolute;
-  bottom: 3vh;
+  position: relative;
+  bottom: 1vh;
   left: 0;
   right: 0;
   font-variant-caps: all-petite-caps;
@@ -33,7 +34,8 @@
 
 @media only screen and (min-width: 801px) {
   .banner {
-    padding-top: 25vh;
+    display: grid;
+    align-items: end;
     max-width: 1000px;
   }
 
