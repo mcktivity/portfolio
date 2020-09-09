@@ -58,8 +58,9 @@
 
 @media only screen and (max-width: 800px) {
   .banner {
-    padding-top: 25vh;
-    max-width: 80vw;
+    display: grid;
+    align-items: end;
+    max-width: 1000px;
   }
 
   .banner img {
@@ -104,4 +105,3 @@
     font-size: medium;
   }
 }
-
