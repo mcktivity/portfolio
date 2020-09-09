@@ -18,8 +18,9 @@
 .about header {
   font-variant-caps: all-petite-caps;
   line-height: 1.2em;
-  font-size: x-large;
-  letter-spacing: 2px;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 .about article {
@@ -29,6 +30,7 @@
   text-align: center;
   font-size: medium;
   line-height: 1.4em;
+  padding: 1em;
 }
 
 .about article p {

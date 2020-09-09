@@ -51,8 +51,9 @@
   }
 
   .banner header {
-    font-size: xx-large;
-    letter-spacing: 2px;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 3px;
   }
 }
 
@@ -75,6 +76,7 @@
 
   .banner header {
     font-size: x-large;
+    font-weight: 600;
     letter-spacing: 2px;
   }
 }
@@ -87,6 +89,7 @@
 
   .banner header {
     font-size: calc(25px + 1vw);
+    font-weight: 600;
     letter-spacing: 1px;
   }
 
