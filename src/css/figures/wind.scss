@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+.wind {
+  background-color: $saturated-blue;
+
+  width: 120px;
+  height: 2px;
+  position: absolute;
+  top: 100px;
+  z-index: 2;
+
+  animation-name: windy;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.wind::before {
+  content: "";
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 100px;
+  height: 1px;
+  background-color: $saturated-blue;
+}
+
+.wind::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 250px;
+  width: 150px;
+  height: 2px;
+  background-color: $saturated-blue;
+}

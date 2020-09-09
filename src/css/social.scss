@@ -1,0 +1,24 @@
+.social-media {
+  display: block;
+  justify-content: center;
+  margin: 2em auto;
+}
+
+.social-media header {
+  font-variant-caps: all-petite-caps;
+  letter-spacing: 1px;
+  font-size: x-large;
+  display: block;
+}
+
+.social-media section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media p {
+  margin: 0.5em;
+  line-height: 1.5em;
+}

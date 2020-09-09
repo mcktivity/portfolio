@@ -2,17 +2,9 @@ import React from "react";
 
 export default () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#ffffff",
-        margin: 4,
-        borderRadius: 4,
-        width: "100%",
-      }}
-    >
-      <section style={{ padding: 30 }}>
+    <main style={{ width: "100%" }}>
+      <section>
         <h2>RELEVANT ERFARING</h2>
-        <br />
         <a
           className="size-24 weight-bold"
           href="https://www.gamefraym.com"
@@ -32,6 +24,6 @@ export default () => {
           <li>Testing av web appen for stabilitet </li>
         </ul>
       </section>
-    </div>
+    </main>
   );
 };

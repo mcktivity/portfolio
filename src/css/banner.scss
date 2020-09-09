@@ -1,0 +1,105 @@
+.banner {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  min-height: 100vh;
+}
+
+.banner p {
+  font-variant-caps: petite-caps;
+  letter-spacing: 2px;
+  font-size: large;
+  color: $saturated-blue;
+}
+
+.banner header {
+  font-variant-caps: all-petite-caps;
+  line-height: 1.2em;
+  color: $black-pearl;
+}
+
+.banner span {
+  position: absolute;
+  bottom: 3vh;
+  left: 0;
+  right: 0;
+  font-variant-caps: all-petite-caps;
+  font-size: larger;
+  letter-spacing: 1px;
+  animation: slideDown 5s infinite;
+}
+
+@media only screen and (min-width: 801px) {
+  .banner {
+    padding-top: 25vh;
+    max-width: 1000px;
+  }
+
+  .banner header {
+    padding: 0.2em 0;
+  }
+
+  .banner img {
+    display: block;
+    max-width: 370px;
+    width: 100%;
+    margin: 2em auto 0;
+  }
+
+  .banner header {
+    font-size: xx-large;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .banner {
+    padding-top: 25vh;
+    max-width: 80vw;
+  }
+
+  .banner img {
+    display: block;
+    max-width: 60vw;
+    width: 100%;
+    margin: 2em auto 0;
+  }
+
+  .banner p {
+    padding: 2em 0.5em;
+  }
+
+  .banner header {
+    font-size: x-large;
+    letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    padding-top: 25vh;
+    max-width: 90vw;
+  }
+
+  .banner header {
+    font-size: 29px;
+    letter-spacing: 1px;
+  }
+
+  .banner p {
+    padding: 2em 0.5em;
+    font-size: medium;
+  }
+
+  .banner img {
+    display: block;
+    max-width: 70vw;
+  }
+
+  .banner span {
+    font-size: medium;
+  }
+}
+

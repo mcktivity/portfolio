@@ -2,17 +2,9 @@ import React from "react";
 
 export default () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#ffffff",
-        margin: 4,
-        borderRadius: 4,
-        width: "100%",
-      }}
-    >
-      <section style={{ padding: 30 }}>
+    <main aria-label="education">
+      <section>
         <h2>UTDANNING</h2>
-        <br />
         <a
           className="size-24 weight-bold"
           href="https://www.oslomet.no"
@@ -27,8 +19,7 @@ export default () => {
           Vanlig studielæreplan med valgte emner: Webapplikasjoner, Universell
           utforming, Nettverk- og systemadministrasjon og Teknologiledelse
         </p>
-        <br />
-            <a
+        <a
           className="size-24 weight-bold"
           href="https://elvebakken.vgs.no/"
           rel="noopener noreferrer"
@@ -43,6 +34,6 @@ export default () => {
           ett år realfag i Matematikk og Fysikk
         </p>
       </section>
-    </div>
+    </main>
   );
 };

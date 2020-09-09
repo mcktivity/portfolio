@@ -1,9 +1,16 @@
-@import "main.scss";
-@import "animatedBg.scss";
-@import "text.scss";
+
+// Figures
+@import "./figures/trees.scss";
+@import "./figures/mountain.scss";
+@import "./figures/wind.scss";
+@import "./figures/scenery.scss";
+@import "about.scss";
+@import "social.scss";
 @import "button.scss";
 @import "image.scss";
-@import "navbar.scss";
 @import "scrollbar.scss";
-@import "list.scss";
-@import "semantic.scss";
+@import "animations.scss";
+@import "banner.scss";
+@import "logo.scss";
+@import "../components/NavBar/Navbar.scss";
+@import "main.scss";

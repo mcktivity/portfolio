@@ -12,7 +12,6 @@ interface ButtonProps {
 export default ({ title, onClick, color, style }: ButtonProps) => {
   let className = `button`;
   let baseStyle: CSSProperties = {
-    margin: "5px 20px",
     position: "relative",
     zIndex: 2,
     ...style,

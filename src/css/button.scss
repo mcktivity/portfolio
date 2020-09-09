@@ -8,7 +8,7 @@
 
   display: block;
   position: relative;
-  padding: 1.5em 3em;
+  padding: 1.2em;
   appearance: none;
   border: 0;
   background: transparent;
@@ -16,7 +16,6 @@
   letter-spacing: 0.25em;
   outline: none;
   cursor: pointer;
-  font-weight: bold;
   border-radius: 0;
   box-shadow: inset 0 0 0 var(--border-size) currentcolor;
   transition: background 1s ease;

@@ -1,0 +1,92 @@
+@import "../variables.scss";
+
+$huge: 2.5 * 100px;
+$large: 2.1 * 100px;
+$medium: 1.8 * 100px;
+$low: 1.4 * 100px;
+
+.mountain {
+  &--huge {
+    position: absolute;
+    bottom: 2vh;
+    left: 140px;
+    z-index: 0;
+
+    height: 0;
+    width: $huge;
+    border-left: $huge/2 solid transparent;
+    border-right: $huge/2 solid transparent;
+    border-bottom: $huge solid $soft-orange;
+
+    &::before {
+      content: "";
+      position: relative;
+      top: -21px;
+      border-right: $huge/2 solid transparent;
+      border-bottom: $huge solid rgb(119, 92, 58);
+    }
+  }
+
+  &--large {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    height: 0;
+    width: $large;
+    border-left: $large/2 solid transparent;
+    border-right: $large/2 solid transparent;
+    border-bottom: $large solid $soft-orange;
+
+    &::before {
+      content: "";
+      position: relative;
+      top: -21px;
+      border-right: $large/2 solid transparent;
+      border-bottom: $large solid rgb(119, 92, 58);
+    }
+  }
+
+  &--medium {
+    position: absolute;
+    bottom: 1vh;
+    left: 315px;
+    z-index: 1;
+
+    height: 0;
+    width: $medium;
+    border-left: $medium/2 solid transparent;
+    border-right: $medium/2 solid transparent;
+    border-bottom: $medium solid $soft-orange;
+
+    &::before {
+      content: "";
+      position: relative;
+      top: -21px;
+      border-right: $medium/2 solid transparent;
+      border-bottom: $medium solid rgb(119, 92, 58);
+    }
+  }
+
+  &--low {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+
+    height: 0;
+    width: $low;
+    border-left: $low/2 solid transparent;
+    border-right: $low/2 solid transparent;
+    border-bottom: $low solid $soft-orange;
+
+    &::before {
+      content: "";
+      position: relative;
+      top: -21px;
+      border-right: $low/2 solid transparent;
+      border-bottom: $low solid rgb(119, 92, 58);
+    }
+  }
+}

@@ -1,0 +1,36 @@
+@import "../variables.scss";
+
+.scenery {
+  width: 600px;
+  position: relative;
+}
+
+.scenery .ground {
+  position: relative;
+  display: flex;
+  width: 600px;
+  height: 300px;
+}
+
+.scenery .grass {
+  position: relative;
+  top: 45px;
+  height: 10px;
+  width: 75%;
+  margin: 0 auto;
+  background: $sea-green;
+}
+
+@media only screen and (min-width: 801px) {
+  //PC view
+  .scenery {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  //Mobile view
+  .scenery {
+    left: -150px;
+  }
+}

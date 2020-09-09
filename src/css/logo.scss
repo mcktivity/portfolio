@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+.logo {
+  position: absolute;
+  top: 1.5em;
+  left: 3vw;
+
+  padding: 0 1em;
+  font-size: x-large;
+  font-variant-caps: all-petite-caps;
+  letter-spacing: -0.8px;
+
+  color: $black-pearl;
+}
