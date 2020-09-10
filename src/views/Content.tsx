@@ -6,7 +6,7 @@ export default () => {
     <main className="content">
       <section>
         <img className="profile-pic" src={ProfilePic} />
-        <header>&#x276E;om mcklien &#8725;&#x276F;</header>
+        <header>&#60;om mcklien &#47;&#62;</header>
         <article>
           <p>
             Jeg er en front end utvikler med bakgrunn i web applikasjon. Jeg har
@@ -17,7 +17,7 @@ export default () => {
         </article>
       </section>
       <section>
-        <header>&#x276E;mer erfaring &#8725;&#x276F;</header>
+        <header>&#60;mer erfaring &#47;&#62;</header>
         <article>
           <p>
             Som frontend utvikler, min hovedrolle er å implementere nye design

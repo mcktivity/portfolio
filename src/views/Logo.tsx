@@ -1,5 +1,5 @@
 import React from "react";
 
 export default () => {
-  return <p className="logo">&#x276E;mcklien &#8725; &#x276F;</p>;
+  return <p className="logo">&#60;mcklien &#47;&#62;</p>;
 };

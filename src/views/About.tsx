@@ -6,7 +6,7 @@ export default () => {
     <main className="container">
       <section>
         <article>
-          <header>&#x276E;relevant erfaring &#8725;&#x276F;</header>
+          <header>&#60;relevant erfaring &#47;&#62;</header>
           <p>
             Hovedansvarlig for frontend utviklingen hos en startup. Jobbet med
             React, HTML, CSS, JS og TypeScript. Varierte arbeidsoppgaver som å
@@ -18,7 +18,7 @@ export default () => {
       <section>
         <article>
           <img src={ProfilePic} className="profile-pic" alt="profile" />
-          <header>&#x276E;om mcklien &#8725;&#x276F;</header>
+          <header>&#60;om mcklien &#47;&#62;</header>
           <p>
             Jeg kommer fra filippinene og har bodd i Norge
             siden 2012. Jeg er en frontend utvikler med bakgrunn i
@@ -30,7 +30,7 @@ export default () => {
       </section>
       <section>
         <article>
-          <header>&#x276E;motivasjon &#8725;&#x276F;</header>
+          <header>&#60;motivasjon &#47;&#62;</header>
           <p>
             Jeg er dypt motivert i å jobbe med gode digitale tjenester og
             utvikling for mobile plattform. Jeg er interessert i å jobbe med nye
@@ -42,7 +42,7 @@ export default () => {
       </section>
       <section>
         <article>
-          <header>&#x276E;Nøkkel kompetanse &#8725;&#x276F;</header>
+          <header>&#60;Nøkkel kompetanse &#47;&#62;</header>
           <ul>
             <li>HTML, SCSS, JavaScript, TypeScript og React.</li>
             <li>Læringsvillig, engasjert og faglig nysgjerrig </li>
@@ -55,7 +55,7 @@ export default () => {
       </section>
       <section>
         <article>
-          <header>&#x276E;studiet &#8725;&#x276F;</header>
+          <header>&#60;studiet &#47;&#62;</header>
           <p>
             <b>OsloMet.</b> <br /> webapplikasjon, universell utforming og
             nettverk- og systemadministrasjon
@@ -69,7 +69,7 @@ export default () => {
       </section>
       <section>
         <article>
-          <header>&#x276E;teknologi &#8725;&#x276F;</header>
+          <header>&#60;teknologi &#47;&#62;</header>
           <p>
             <b>koder.</b> React, HTML, SCSS, JavaScript, TypeScript.
           </p>
