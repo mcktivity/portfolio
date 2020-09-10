@@ -21,7 +21,7 @@ $low: 1.4 * 100px;
     &::before {
       content: "";
       position: relative;
-      top: -21px;
+      top: -22px;
       border-right: $huge/2 solid transparent;
       border-bottom: $huge solid rgb(119, 92, 58);
     }
@@ -42,7 +42,7 @@ $low: 1.4 * 100px;
     &::before {
       content: "";
       position: relative;
-      top: -21px;
+      top: -22px;
       border-right: $large/2 solid transparent;
       border-bottom: $large solid rgb(119, 92, 58);
     }
@@ -63,7 +63,7 @@ $low: 1.4 * 100px;
     &::before {
       content: "";
       position: relative;
-      top: -21px;
+      top: -22px;
       border-right: $medium/2 solid transparent;
       border-bottom: $medium solid rgb(119, 92, 58);
     }
@@ -84,7 +84,7 @@ $low: 1.4 * 100px;
     &::before {
       content: "";
       position: relative;
-      top: -21px;
+      top: -22px;
       border-right: $low/2 solid transparent;
       border-bottom: $low solid rgb(119, 92, 58);
     }
