@@ -1,18 +1,17 @@
 import React from "react";
 import Menu from "../components/Menu/Menu";
 import MenuItem from "../components/Menu/MenuItem";
-import { cvLink } from "../consts";
+import { cvLink, srcLink } from "../consts";
 
 export default () => {
+  function sendMail() {
+    window.location.href = "mailto:mronoya@hotmail.com";
+  }
+
   return (
     <Menu>
       <MenuItem
-        link="les cven"
-        description="oppdatert cv. åpnes i Google Docs."
-        onClick={() => window.open(cvLink, "_blank")}
-      />
-      <MenuItem
-        link="om mcklien"
+        link="litt om mcklien"
         description="nøkkelkompetanse. litt om meg."
         onClick={() =>
           document
@@ -39,9 +38,19 @@ export default () => {
         }
       />
       <MenuItem
+        link="les hele cven"
+        description="oppdatert cv. åpnes i Google Docs."
+        onClick={() => window.open(cvLink, "_blank")}
+      />
+      <MenuItem
+        link="ta kontakt"
+        description="send epost: mronoya@hotmail.com "
+        onClick={() => sendMail()}
+      />
+      <MenuItem
         link="src kode"
         description="kode bak portfolio. åpnes i Github."
-        onClick={() => alert("")}
+        onClick={() => window.open(srcLink, "_blank")}
       />
     </Menu>
   );

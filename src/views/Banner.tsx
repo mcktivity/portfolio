@@ -1,12 +1,14 @@
 import React from "react";
 import Page from "../components/Page/Page";
-import { text_banner as banner, text_aboutMe } from "../consts";
+import { text_banner } from "../consts";
+import ProfilePic from "./../images/profile-picture.jpg";
 
 export default () => {
   return (
     <Page id="banner" className="banner">
-      <header>&#60;frontend utvikler &#47;&#62;</header>
-      <p>{banner}</p>
+      <img src={ProfilePic} />
+      <h2>&#60;navn: mcklien &#47;&#62;</h2>
+      <h3>{text_banner}</h3>
     </Page>
   );
 };

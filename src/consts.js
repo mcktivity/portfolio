@@ -4,7 +4,7 @@ export const cvLink =
 export const srcLink = "https://github.com/mcktivity/portfolio";
 
 export const text_banner =
-  "brenner for å skape det beste design med helhetlig brukeropplevelse på alle flater";
+  "frontend utvikler som brenner for å skape det beste design med helhetlig brukeropplevelse på alle flater";
 
 export const text_motivasjon =
   "Jeg er dypt motivert i å jobbe med gode digitale tjenester og utvikling for mobile plattform. Jeg er interessert i å jobbe med nye og spennende prosjekter med stor samfunnsbetydning og stor offentlige interesse som gir gode mulighet for faglig og personlig utvikling.";

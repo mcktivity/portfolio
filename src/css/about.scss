@@ -39,14 +39,3 @@
   padding: 1em;
 }
 
-@media (min-width: 801px) {
-  .aboutMe img {
-    margin: 1em auto;
-  }
-}
-
-@media (max-width: 800px) {
-  .aboutMe img {
-    display: none;
-  }
-}

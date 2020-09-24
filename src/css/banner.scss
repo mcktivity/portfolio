@@ -6,28 +6,28 @@
   text-align: center;
 }
 
-.banner p {
+.banner h3 {
   max-width: 75vw;
   margin: 0 auto;
   color: $mk-purple-darker;
   font-size: large;
-  font-weight: 400;
-  font-variant-caps: all-small-caps;
-  letter-spacing: 2px;
+  font-weight: normal;
+  font-variant-caps: all-petite-caps;
+  letter-spacing: 1.7px;
   line-height: 1em;
 }
 
-.banner header {
+.banner h2 {
   font-size: xx-large;
-  font-weight: bolder;
-  font-variant-caps: all-small-caps;
+  font-variant-caps: all-petite-caps;
   line-height: 1.5em;
   letter-spacing: -1px;
   color: $mk-green-darker;
 }
 
-@media (max-width: 800px) {
-  .banner p {
-    font-size: medium;
-  }
+.banner img {
+  border-radius: 50%;
+  border: 0.5em solid $mk-green-darker;
+  margin: 2em auto 1em;
+  overflow: hidden;
 }
