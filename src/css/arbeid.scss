@@ -1,7 +1,7 @@
 @import "variables.scss";
 
-.omMeg {
-  color: $mk-white;
+.arbeid {
+  color: $mk-purple-darker;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,19 +9,7 @@
   letter-spacing: 1.5px;
 }
 
-.omMeg ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.omMeg img {
-  border-radius: 50%;
-  border: 0.5em solid $mk-green-darker;
-  overflow: hidden;
-}
-
-.omMeg article header {
+.arbeid article header {
   background-color: $mk-green-darker;
   padding: 0 1em;
   margin-bottom: 10px;
@@ -33,20 +21,18 @@
   font-variant-caps: small-caps;
 }
 
-.omMeg article {
+.arbeid article {
   width: 100%;
   max-width: 450px;
   padding: 1em;
+  text-align: right;
 }
 
 @media (min-width: 1000px) {
-  .omMeg {
+  .arbeid {
     justify-content: center;
   }
-  .omMeg img {
-    margin: 2em auto;
-  }
-  .omMeg article {
+  .arbeid article {
     margin: 2em auto;
     max-width: 600px;
     line-height: 1.8em;
@@ -54,40 +40,32 @@
 }
 
 @media (max-width: 999px) {
-  .omMeg {
+  .arbeid {
     justify-content: space-evenly;
   }
-  .omMeg img {
-    margin: 1em auto;
-  }
-  .omMeg article {
+  .arbeid article {
     line-height: 1.8em;
   }
 }
 
 @media (max-width: 800px) {
-  .omMeg {
+  .arbeid {
     justify-content: space-evenly;
   }
-  .omMeg img {
-    display: none;
-  }
-  .omMeg article {
+  .arbeid article {
     line-height: 1.6em;
   }
-  .omMeg p,
-  .omMeg li {
+  .arbeid p {
     font-size: small;
   }
 }
 
 @media (min-height: 640px) {
-  .omMeg {
+  .arbeid {
     justify-content: center;
   }
-  .omMeg p,
-  .omMeg li {
-    padding: 0.3em 0;
+  .arbeid p {
+    padding: 0.5em 0;
     font-size: medium;
   }
 }

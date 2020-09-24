@@ -1,15 +1,15 @@
 @import "../variables.scss";
 
-$huge: 2.5 * 100px;
-$large: 2.1 * 100px;
-$medium: 1.8 * 100px;
-$low: 1.4 * 100px;
+$huge: 2 * 80px;
+$large: 1.6 * 80px;
+$medium: 1.2 * 80px;
+$low: 0.8 * 80px;
 
 .mountain {
   &--huge {
     position: absolute;
-    bottom: 2vh;
-    left: 140px;
+    bottom: 10px;
+    left: 100px;
     z-index: 0;
 
     height: 0;
@@ -50,8 +50,8 @@ $low: 1.4 * 100px;
 
   &--medium {
     position: absolute;
-    bottom: 1vh;
-    left: 315px;
+    bottom: 8px;
+    left: 250px;
     z-index: 1;
 
     height: 0;

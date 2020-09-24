@@ -1,0 +1,69 @@
+@import "./../../css/variables.scss";
+
+.page {
+  padding: 1em;
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  position: relative;
+  transition-duration: 800ms;
+}
+
+.page:first-child,
+.page:nth-child(3) {
+  background-color: $mk-white;
+  box-shadow: 0 0 5px rgba($mk-white, 0.3);
+  button.next-button {
+    color: $mk-white;
+    background-color: $mk-purple-darker;
+    box-shadow: 0 0 5px rgba($mk-purple-darker, 0.3);
+  }
+}
+.page:nth-child(2),
+.page:last-child {
+  background-color: $mk-purple-darker;
+  box-shadow: 0 0 5px rgba($mk-purple-darker, 0.3);
+  button.next-button {
+    color: $mk-purple-darker;
+    background-color: $mk-white;
+    box-shadow: 0 0 5px rgba($mk-white, 0.3);
+  }
+}
+
+button.next-button,
+button.slide-top-button {
+  border: none;
+  outline: none;
+  padding: 1vw;
+  position: absolute;
+  right: 5vw;
+  z-index: 1;
+}
+
+button.slide-top-button {
+  font-size: 2.2em;
+  top: 0;
+  border-radius: 0 0 50px 50px;
+}
+button.next-button {
+  font-size: 2.5em;
+  bottom: 0;
+  border-radius: 50px 50px 0 0;
+}
+
+.page:last-child {
+  button.next-button {
+    display: none;
+  }
+  button.slide-top-button {
+    display: block;
+  }
+}
+
+.page:not(:last-child) {
+  button.next-button {
+    display: block;
+  }
+  button.slide-top-button {
+    display: none;
+  }
+}

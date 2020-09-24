@@ -19,7 +19,8 @@ export default () => {
         <div className="tree tree_4" />
         <div className="tree tree_5" />
       </section>
-      <hr className="grass" />
+      <div className="lake" />
+      {/* <hr className="grass" /> */}
     </main>
   );
 };

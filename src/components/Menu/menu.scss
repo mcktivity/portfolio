@@ -1,0 +1,78 @@
+@import "./../../css/variables.scss";
+
+button.menu-btn {
+  position: absolute;
+  top: 1.5em;
+  right: 5vw;
+  z-index: 999;
+  outline: none;
+  border: none;
+  background: none;
+  width: 2em;
+}
+
+button.menu-btn ul {
+  list-style: none;
+  margin: 0;
+  li.line {
+    border: 1px solid $mk-purple-darker;
+    width: 100%;
+    margin-bottom: 7px;
+    transition-duration: 200ms;
+    background-color: $mk-purple-darker;
+  }
+}
+
+button.menu-btn.active {
+  transition: background-color 300ms linear;
+  background-color: transparent;
+  box-shadow: none;
+  position: fixed;
+
+  color: $mk-white;
+
+  > ul > li.line {
+    border-color: $mk-white;
+    background-color: $mk-white;
+    &:nth-child(1) {
+      border-width: 1px;
+      transition-duration: 300ms;
+      transform: rotate(45deg) translate(6px, 9px);
+    }
+
+    &:nth-child(2) {
+      transition-duration: 100ms;
+      visibility: hidden;
+    }
+
+    &:nth-child(3) {
+      border-width: 1px;
+      transition-duration: 300ms;
+      transform: rotate(-45deg) translate(4px, -7px);
+    }
+  }
+}
+
+main.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  width: 100%;
+  height: 0%;
+  background-color: $mk-purple-darker;
+  background-color: rgba($mk-purple-darker, 0.9);
+  overflow-x: hidden;
+  transition: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+main.menu-overlay ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

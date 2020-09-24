@@ -2,14 +2,19 @@
 
 .logo {
   position: absolute;
-  top: 1.5em;
-  left: 3vw;
+  top: 0;
+  left: 5vw;
+  z-index: 999;
 
-  padding: 0 1em;
   font-size: x-large;
-  font-weight: 600;
-  font-variant-caps: all-petite-caps;
-  letter-spacing: -0.8px;
+  font-weight: 500;
+  font-variant-caps: all-small-caps;
+  letter-spacing: -2px;
+  line-height: 1em;
+  padding: 0.8em 0.5em 0.7em 0.4em;
+  border-radius: 0 0 0.7em 0.7em;
+  box-shadow: 0 2px 5px rgba($mk-white, 0.3);
 
-  color: $black-pearl;
+  color: $mk-purple-darker;
+  background: $mk-white;
 }

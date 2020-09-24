@@ -6,6 +6,13 @@ import Navbar from "./components/NavBar/Navbar";
 import Banner from "./views/Banner";
 import Logo from "./views/Logo";
 import SocialMedia from "./views/SocialMedia";
+import Page from "./components/Page/Page";
+import Container from "./components/Container/Container";
+import Menu from "./components/Menu/Menu";
+import MenuItem from "./components/Menu/MenuItem";
+import Navigation from "./views/Navigation";
+import Arbeid from "./views/Arbeid";
+import Teknologi from "./views/Teknologi";
 
 function App() {
   // Under arbeid
@@ -22,6 +29,15 @@ function App() {
   return (
     <main className="App">
       <Logo />
+      <Navigation />
+      <section>
+        <Banner />
+        <About />
+        <Arbeid />
+        <Teknologi />
+      </section>
+
+      {/* 
       <Navbar>
         <p>
           <a
@@ -47,7 +63,7 @@ function App() {
       <Banner />
       <section className="about">
         <About />
-      </section>
+      </section> */}
     </main>
   );
 }

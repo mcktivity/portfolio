@@ -1,6 +1,6 @@
 @import "variables.scss";
 
-.omMeg {
+.teknologi {
   color: $mk-white;
   display: flex;
   flex-direction: column;
@@ -9,19 +9,7 @@
   letter-spacing: 1.5px;
 }
 
-.omMeg ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.omMeg img {
-  border-radius: 50%;
-  border: 0.5em solid $mk-green-darker;
-  overflow: hidden;
-}
-
-.omMeg article header {
+.teknologi article header {
   background-color: $mk-green-darker;
   padding: 0 1em;
   margin-bottom: 10px;
@@ -33,20 +21,17 @@
   font-variant-caps: small-caps;
 }
 
-.omMeg article {
+.teknologi article {
   width: 100%;
   max-width: 450px;
   padding: 1em;
 }
 
 @media (min-width: 1000px) {
-  .omMeg {
+  .teknologi {
     justify-content: center;
   }
-  .omMeg img {
-    margin: 2em auto;
-  }
-  .omMeg article {
+  .teknologi article {
     margin: 2em auto;
     max-width: 600px;
     line-height: 1.8em;
@@ -54,40 +39,32 @@
 }
 
 @media (max-width: 999px) {
-  .omMeg {
+  .teknologi {
     justify-content: space-evenly;
   }
-  .omMeg img {
-    margin: 1em auto;
-  }
-  .omMeg article {
+  .teknologi article {
     line-height: 1.8em;
   }
 }
 
 @media (max-width: 800px) {
-  .omMeg {
+  .teknologi {
     justify-content: space-evenly;
   }
-  .omMeg img {
-    display: none;
-  }
-  .omMeg article {
+  .teknologi article {
     line-height: 1.6em;
   }
-  .omMeg p,
-  .omMeg li {
+  .teknologi p {
     font-size: small;
   }
 }
 
 @media (min-height: 640px) {
-  .omMeg {
+  .teknologi {
     justify-content: center;
   }
-  .omMeg p,
-  .omMeg li {
-    padding: 0.3em 0;
+  .teknologi p {
+    padding: 0.5em 0;
     font-size: medium;
   }
 }

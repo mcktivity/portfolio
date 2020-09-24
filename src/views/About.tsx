@@ -1,7 +1,29 @@
 import React from "react";
+import Card from "../components/Card/Card";
+import Page from "../components/Page/Page";
+import { text_omMeg } from "../consts";
 import ProfilePic from "./../images/profile-picture.jpg";
 
 export default () => {
+  return (
+    <Page id="omMeg" className="omMeg">
+      <img src={ProfilePic} />
+      <article>
+        <header>litt om mcklien</header>
+        <p>{text_omMeg}</p>
+      </article>
+      <article>
+        <header>nøkkelkompetanse</header>
+        <ul>
+          <li>HTML5, CSS3, JavaScript, TypeScript og ReactJS.</li>
+          <li>læringsvillig, engasjert og faglig nysgjerrig. </li>
+          <li>fleksibel. trives med varierte arbeidsoppgaver. </li>
+          <li>lagspiller som også evner å jobbe selvstendig.&nbsp;</li>
+          <li>jobber strukturert, målbevisst og med stor arbeidskapasitet.</li>
+        </ul>
+      </article>
+    </Page>
+  );
   return (
     <main className="container">
       <section>
@@ -17,14 +39,12 @@ export default () => {
       </section>
       <section>
         <article>
-          <img src={ProfilePic} className="profile-pic" alt="profile" />
           <header>&#60;om mcklien &#47;&#62;</header>
           <p>
-            Jeg kommer fra filippinene og har bodd i Norge
-            siden 2012. Jeg er en frontend utvikler med bakgrunn i
-            webapplikasjon. Jeg er nysgjerrig på nye moderne teknologi og
-            brenner for å ta den i bruk i å skape noe som virkelig betyr noe og
-            skape en bedre fremtid.
+            Jeg kommer fra filippinene og har bodd i Norge siden 2012. Jeg er en
+            frontend utvikler med bakgrunn i webapplikasjon. Jeg er nysgjerrig
+            på nye moderne teknologi og brenner for å ta den i bruk i å skape
+            noe som virkelig betyr noe og skape en bedre fremtid.
           </p>
         </article>
       </section>

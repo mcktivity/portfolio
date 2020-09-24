@@ -1,15 +1,15 @@
 @import "../variables.scss";
 
 .scenery {
-  width: 600px;
+  width: 400px;
   position: relative;
 }
 
 .scenery .ground {
   position: relative;
   display: flex;
-  width: 600px;
-  height: 300px;
+  width: 400px;
+  height: 200px;
 }
 
 .scenery .grass {
@@ -21,7 +21,7 @@
   background: $sea-green;
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 601px) {
   //PC view
   .scenery {
     margin: 0 auto;
@@ -31,6 +31,6 @@
 @media only screen and (max-width: 600px) {
   //Mobile view
   .scenery {
-    left: -150px;
+    left: -40px;
   }
 }

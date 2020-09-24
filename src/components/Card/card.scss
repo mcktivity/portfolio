@@ -1,0 +1,36 @@
+@import "./../../css/variables.scss";
+
+.card {
+  background: $mk-white;
+  max-width: 320px;
+  padding: 1em;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  box-shadow: 0 0 7px 5px rgba($mk-white, 0.1);
+}
+
+.card img.avatar {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 0.5em solid $mk-white;
+  overflow: hidden;
+}
+
+.card h3 {
+  color: $mk-green-darker;
+  font-size: x-large;
+  font-variant-caps: all-petite-caps;
+}
+
+.card .card-content ul {
+  list-style-type: none;
+  margin: 0;
+
+  li {
+    color: $black-pearl;
+    font-size: medium;
+    line-height: 1.2em;
+    padding: 1em 0 0;
+  }
+}
