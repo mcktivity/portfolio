@@ -16,7 +16,7 @@ export default () => {
         description="nøkkelkompetanse. litt om meg."
         onClick={() =>
           document
-            .getElementById("omMeg")
+            .getElementById("aboutMe")
             ?.scrollIntoView({ behavior: "smooth" })
         }
       />

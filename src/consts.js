@@ -9,8 +9,8 @@ export const text_banner =
 export const text_motivasjon =
   "Jeg er dypt motivert i å jobbe med gode digitale tjenester og utvikling for mobile plattform. Jeg er interessert i å jobbe med nye og spennende prosjekter med stor samfunnsbetydning og stor offentlige interesse som gir gode mulighet for faglig og personlig utvikling.";
 
-export const text_omMeg =
-  "Jeg kommer fra filippinene og har bodd i Norge siden 2012. Jeg er en frontend utvikler med bakgrunn i webapplikasjon. Jeg er nysgjerrig på nye moderne teknologi og brenner for å ta den i bruk i å skape noe som virkelig betyr noe og skape en bedre fremtid.";
+export const text_aboutMe =
+  "Jeg kom fra filippinene og har bodd i Norge siden 2012. Jeg er en frontend utvikler med bakgrunn i webapplikasjon. Jeg er nysgjerrig på nye moderne teknologi og brenner for å ta den i bruk i å skape noe som virkelig betyr noe og skape en bedre fremtid.";
 
 export const text_erfaring =
   "Hovedansvarlig for frontend utviklingen hos en startup. Jobbet med ReactJs, HTML, CSS/SCSS, JavaScript og TypeScript. Varierte arbeidsoppgaver som å implementere nye design, responsivt designing som kan brukes på alle flater, vedlikehold, testing, osv.";

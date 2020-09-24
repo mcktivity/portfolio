@@ -18,54 +18,12 @@
   font-size: x-large;
   font-weight: bolder;
   color: $mk-white;
-  font-variant-caps: small-caps;
+  font-variant-caps: all-small-caps;
 }
 
 .arbeid article {
   width: 100%;
-  max-width: 450px;
+  max-width: 600px;
   padding: 1em;
   text-align: right;
-}
-
-@media (min-width: 1000px) {
-  .arbeid {
-    justify-content: center;
-  }
-  .arbeid article {
-    margin: 2em auto;
-    max-width: 600px;
-    line-height: 1.8em;
-  }
-}
-
-@media (max-width: 999px) {
-  .arbeid {
-    justify-content: space-evenly;
-  }
-  .arbeid article {
-    line-height: 1.8em;
-  }
-}
-
-@media (max-width: 800px) {
-  .arbeid {
-    justify-content: space-evenly;
-  }
-  .arbeid article {
-    line-height: 1.6em;
-  }
-  .arbeid p {
-    font-size: small;
-  }
-}
-
-@media (min-height: 640px) {
-  .arbeid {
-    justify-content: center;
-  }
-  .arbeid p {
-    padding: 0.5em 0;
-    font-size: medium;
-  }
 }

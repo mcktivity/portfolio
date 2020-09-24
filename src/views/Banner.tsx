@@ -1,6 +1,6 @@
 import React from "react";
 import Page from "../components/Page/Page";
-import { text_banner as banner, text_omMeg } from "../consts";
+import { text_banner as banner, text_aboutMe } from "../consts";
 
 export default () => {
   return (

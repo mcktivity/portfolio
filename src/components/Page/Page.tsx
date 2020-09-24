@@ -41,7 +41,7 @@ export default ({ id, children, className }: PageProps) => {
     <section id={id} className={pageClass}>
       {children}
       <button className="next-button" onClick={(e) => slideDown(e)}>
-        &#8643;
+        &#8595;
       </button>
       <button className="slide-top-button" onClick={() => slideTop()}>
         &#10514;

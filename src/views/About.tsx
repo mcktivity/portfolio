@@ -1,16 +1,16 @@
 import React from "react";
 import Card from "../components/Card/Card";
 import Page from "../components/Page/Page";
-import { text_omMeg } from "../consts";
+import { text_aboutMe } from "../consts";
 import ProfilePic from "./../images/profile-picture.jpg";
 
 export default () => {
   return (
-    <Page id="omMeg" className="omMeg">
+    <Page id="aboutMe" className="aboutMe">
       <img src={ProfilePic} />
       <article>
         <header>litt om mcklien</header>
-        <p>{text_omMeg}</p>
+        <p>{text_aboutMe}</p>
       </article>
       <article>
         <header>nøkkelkompetanse</header>

@@ -11,11 +11,11 @@ export default () => {
           <b>koder.</b> ReactJs, HTML, CSS/SCSS, JavaScript, TypeScript.
         </p>
         <p>
-          <b>verktøy.</b> Git, DevTools, Jira, Slack, devOps, NPM, osv.
+          <b>verktøy.</b> Git, DevTools, Jira, Slack, devOps, node, osv.
         </p>
         <p>
-          <b>annet.</b> Figma, MaterialUI, responsive, Continuous
-          deployment, object oriented, functional programming
+          <b>annet.</b> responsive design, continuous deployment, object oriented,
+          functional programming
         </p>
       </article>
       <article>
