@@ -5,23 +5,18 @@
 @import "./figures/scenery.scss";
 
 //Views
-@import "banner.scss";
-@import "arbeid.scss";
-@import "teknologi.scss";
 @import "about.scss";
+@import "arbeid.scss";
+@import "banner.scss";
+@import "teknologi.scss";
 
 //Components
-@import "../components/NavBar/Navbar.scss";
 @import "../components/Page/page.scss";
-@import "../components/Container/container.scss";
 @import "../components/Menu/menu.scss";
 @import "../components/Menu/menuItem.scss";
-@import "../components/Card/card.scss";
-@import "logo.scss";
 
+//Main
 @import "main.scss";
+@import "logo.scss";
 @import "scrollbar.scss";
 @import "animations.scss";
-@import "social.scss";
-@import "button.scss";
-@import "image.scss";
